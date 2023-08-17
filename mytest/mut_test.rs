@@ -1,5 +1,7 @@
 fn main(){
-    let mut x = 10;
-    x = 11;
+    let x = String::from("asd");
+
+    let v = [1,2,3];
+    v[0]= 10;
     println!("x {}",x);
 }
